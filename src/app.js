@@ -1,0 +1,2 @@
+require('../dist/style.scss');
+

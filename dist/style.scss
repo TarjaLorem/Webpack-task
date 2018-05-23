@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #E2E2E2;
+  .webpack-title {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 200px;
+    background: #501313;
+    margin-top: 200px;
+    .webpack-desc {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 64px;
+      font-weight: 900;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .wrapp-icon {
+      width: 8em;
+      height: 8em;
+      transform-style: preserve-3d;  
+      transition: transform 2s linear;
+      background: #C15F5F;
+      margin: 35px 50px 0px;
+    }
+    .wrapp-icon:hover{
+      transform: rotate(1turn);
+    }
+  }
+}
